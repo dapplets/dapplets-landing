@@ -1,15 +1,15 @@
 .header {
-	background-image: url('../../images/header-bg.jpg');
+	background-image: url('../../images/header-bg-desktop.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	max-height: 826px;
 
 	padding-top: 78px;
-	padding-right: 71px;
+  padding-right: 54px;
 }
 
 .header__top {
-	max-width: 1134px;
+	max-width: 1160px;
 	margin-left: auto;
 }
 
@@ -17,7 +17,7 @@
 	display: block;
 	text-align: right;
 
-	margin-right: 1px;
+	margin-right: 18px;
 	letter-spacing: 2.8px;
 
 	font-weight: 200;
@@ -28,6 +28,9 @@
 
 .header__image {
 	display: block;
+	background-image: url('../../images/dapplets-project.png');
+	background-repeat: no-repeat;
+	height: 259px;
 }
 
 .header__bottom {

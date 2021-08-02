@@ -2,10 +2,6 @@
 
 @import url('./base/_bootstrap-reboot.min.scss');
 
-
-// Sections
-@import url('./pages/_header.scss');
-
 body {
 	font-family: 'Roboto', sans-serif;
 }
@@ -14,3 +10,10 @@ body {
 	max-width: 1700px;
 	padding: 0 15px;
 }
+
+// Sections
+@import url('./pages/_header.scss');
+
+
+// Adaptive
+@import url('./adaptive/_header.scss');

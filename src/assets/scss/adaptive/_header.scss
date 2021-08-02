@@ -1,0 +1,22 @@
+@media screen and (max-width: 600px) {
+	.header {
+		background-image: url('../../images/header-bg-mobile.jpg');
+	}
+
+	.header__project {
+		height: 0;
+		width: 0;
+		overflow: hidden;
+	}
+
+	.header__image {
+		background-image: url('../../images/dapplets-project-mobile.png');
+		background-position: center;
+		height: 70px;
+	}
+
+	.header__title {
+		font-size: 24px;
+line-height: 29px;
+	}
+}
