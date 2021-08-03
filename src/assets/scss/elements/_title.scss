@@ -1,0 +1,24 @@
+.title {
+	font-family: Montserrat, sans-serif;
+	font-weight: 900;
+	font-size: 86px;
+	line-height: 105px;
+	color: #232629;
+}
+
+.title__light {
+	font-weight: 100;
+}
+
+.title__filled {
+	position: relative;
+}
+
+.title__empty {
+	position: absolute;
+	top: -4px;
+	left: -5px;
+	-webkit-text-fill-color: transparent;
+	-webkit-text-stroke-width: .3px;
+	-webkit-text-stroke-color: rgba(#000,.2);
+}
