@@ -106,7 +106,13 @@
 	}	
 
 	.header__text br {
-		display: none;
+		display: inline;
+		content: ' ';
+		clear:none;
+	}
+
+	.header__text br::after {
+		content: ' ';
 	}
 
 	.header__information--1 .header__text {

@@ -3,15 +3,11 @@
 	padding-bottom: 136px;
 }
 
-.title__out-mission {
-
-}
-
 .our-mission__list {
 	display: flex;
+	flex-wrap: wrap;
 	padding-left: 0;
 	padding-right: 40px;
-	padding-top: 45px;
 	margin-left: -13px;
 	font-weight: 300;
 	font-size: 36px;
@@ -22,9 +18,21 @@
 }
 
 .our-mission__item {
-	max-width: 368px;
-	
+	position: relative;
+	max-width: 360px;
+	margin-top: 45px;
 }
+
+.our-mission__item::before {
+	content: '';
+	position: absolute;
+	left: 0;
+	bottom: -27px;
+	width: 180px;
+	height: 8px;
+	background-color: #FAFAFA;
+}
+
 
 .our-mission__item--1 {
 	margin-right: 67px;
