@@ -1,3 +1,10 @@
+@media screen and (max-width: 1920px) {
+	.header__information--3 {
+		// Для чего это делается, описание в pages/_header.scss
+		margin-right: 0
+	}
+}
+
 @media screen and (max-width: 1368px) {
 
 	.header-background {
