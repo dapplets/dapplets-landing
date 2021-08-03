@@ -1,22 +1,235 @@
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1368px) {
+
 	.header {
-		background-image: url('../../images/header-bg-mobile.jpg');
+		background-image: url('../../images/header-bg/header-bg-table-horizontal.jpg');
+		max-height: 750px;
+		padding-top: 63px;
 	}
 
-	.header__project {
-		height: 0;
-		width: 0;
-		overflow: hidden;
+	.header__top {
+		max-width: 971px;
 	}
 
 	.header__image {
-		background-image: url('../../images/dapplets-project-mobile.png');
-		background-position: center;
-		height: 70px;
+		background-image: url('../../images/header/dapplets-project-table-horizontal.png');
+		height: 225px;
 	}
 
 	.header__title {
+		max-width: 780px;
+		font-size: 56px;
+		line-height: 68px;
+	}
+
+	.header__title-description {
+		display: inline;
+	}
+
+	.header__title-border {
+		display: none;
+	}
+
+	.header__project {
+		font-size: 45px;
+		line-height: 55px;
+	}
+
+	.header__bottom {
+    padding-top: 69px;
+	}
+
+	.header__informations {
+		padding-top: 119px;
+		margin-left: 6px;
+	}
+
+	.header__information--1 {
+    margin-right: 152px;
+	}
+
+	.header__information {
+		margin-top: 45px;
+	}
+}
+
+@media screen and (max-width: 1700px) {
+	.header__image {
+		background-size: contain;
+	}
+}
+
+@media screen and (max-width: 912px) {
+
+	.header {
+		padding-top: 74px;
+		background-image: url('../../images/header-bg/header-bg-table-vertical.jpg');
+		max-height: 632px;
+	}
+
+	.header__top {
+		max-width: 633px;
+	}
+
+	.header__project {
 		font-size: 24px;
 		line-height: 29px;
+		margin-right: 6px;
+		letter-spacing: 1.4px;
+	}
+
+	.header__image {
+		background-size: auto;
+		max-width: 633px;
+		height: 145px;
+		background-image: url('../../images/header/dapplets-project-table-vertical.png');
+	}
+
+	.header__bottom {
+    padding-top: 57px;
+	}
+
+	.header__informations {
+   padding-top: 54px;
+    margin-left: 0px;
+	}
+
+	.header__information {
+        margin-top: 18px;
+	}	
+
+	.header__text br {
+		display: none;
+	}
+
+	.header__information--1 .header__text {
+		max-width: 596px;
+	}
+
+	.header__information--2 .header__text {
+		max-width: 516px;
+	}
+
+	.header__information--3 {
+		margin-top: 31px;
+	}
+
+}
+
+@media screen and (max-width: 750px) {
+
+	.header {
+		max-height: 490px;
+	}
+
+	.header__image {
+		background-size: contain;
+	}
+}
+
+@media screen and (max-width: 650px) {
+	.header__title {
+		font-size: 35px;
+		line-height: 43px;
+	}
+
+	.header__bottom {
+    padding-top: 5px;
+	}
+
+	.header__information {
+		max-width: 100%;
+		margin-right: 0;
+	}
+
+	.header__text {
+		font-size: 20px;
+		line-height: 32px;
+	}
+
+	.header__information,
+	.header__information--3 {
+		margin-top: 14px;
+	}
+}
+
+
+@media screen and (max-width: 490px) {
+
+	.header__title {
+		font-size: 28px;
+		line-height: 36px;
+	}
+
+	.header__image {
+		height: 100px;
+	}
+
+	.header__informations {
+		padding-top: 30px;
+	}
+
+	.header__text {
+		font-size:18px;
+		line-height: 30px;
+	}
+}
+
+@media screen and (max-width: 360px) {
+
+	.header {
+		padding-right: 20px;
+		padding-top: 28px;
+		background-image: url('../../images/header-bg/header-bg-mobile.jpg');
+		max-height: 299px;
+	}
+
+	.header__image {
+		background-size: auto;
+		max-width: 100%;
+		height: 65px;
+		background-image: url('../../images/header/dapplets-project-mobile.png');
+		background-position: center;
+	}
+
+	.header__project {
+		font-size: 10px;
+		margin-right: -2px;
+		line-height: 12px;
+	}
+
+	.header__title {
+		text-align: center;
+		font-size: 24px;
+		line-height: 29px;
+	}
+
+	.header__bottom {
+		padding-top: 30px;
+	}
+
+	.header__informations {
+		padding-top: 36px;
+		margin-left: 6px;
+	}
+
+	.header__text {
+		font-size: 16px;
+		line-height: 25px;
+	}
+
+	.header__information--3 {
+    padding-top: 8px;
+	}
+
+	.header__information--1 .header__text {
+    max-width: 269px;
+	}
+
+	.header__information--2 .header__text {
+    max-width: 250px;
+	}
+
+	.header__information--3 .header__text {
+		max-width: 256px;
 	}
 }

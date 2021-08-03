@@ -6,14 +6,15 @@ body {
 	font-family: 'Roboto', sans-serif;
 }
 
-.container {
-	max-width: 1700px;
-	padding: 0 15px;
-}
+// Elements
+@import url('./elements/_title.scss');
 
 // Sections
+@import url('./_container.scss');
 @import url('./pages/_header.scss');
 
 
+
 // Adaptive
+@import url('./adaptive/_container.scss');
 @import url('./adaptive/_header.scss');

@@ -1,5 +1,5 @@
 .header {
-	background-image: url('../../images/header-bg-desktop.jpg');
+	background-image: url('../../images/header-bg/header-bg-desktop.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	max-height: 826px;
@@ -28,14 +28,13 @@
 
 .header__image {
 	display: block;
-	background-image: url('../../images/dapplets-project.png');
+	background-image: url('../../images/header/dapplets-project.png');
 	background-repeat: no-repeat;
 	height: 259px;
 }
 
 .header__bottom {
-	padding-left: 179px;
-	padding-top: 40px;
+	padding-top: 24px;
 }
 
 .header__title {
@@ -71,13 +70,19 @@
 
 .header__informations {
 	display: flex;
+	flex-wrap: wrap;
 
-	padding-top: 39px;
-	padding-left: 7px;
+	margin-left: -5px;
+	padding-top: 93px;
 }
 
-.header__information:not(:last-child) {
+.header__information--1 {
 	margin-right: 120px;
+}
+
+.header__information--3 {
+	margin-top: 63px;
+	max-width: 1040px;
 }
 
 .header__dots {
