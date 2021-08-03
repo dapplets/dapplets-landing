@@ -1,51 +1,55 @@
-const gulp = require('gulp'),
-  del = require('del'),
-  sourcemaps = require('gulp-sourcemaps'),
-  plumber = require('gulp-plumber'),
-  sass = require('gulp-sass'),
-  autoprefixer = require('gulp-autoprefixer'),
-  minifyCss = require('gulp-clean-css'),
-  babel = require('gulp-babel'),
-  webpack = require('webpack-stream'),
-  uglify = require('gulp-uglify'),
-  concat = require('gulp-concat'),
-  imagemin = require('gulp-imagemin'),
-  browserSync = require('browser-sync').create(),
-  dependents = require('gulp-dependents'),
+const gulp = require('gulp');
+const del = require('del');
+const sourcemaps = require('gulp-sourcemaps');
+const plumber = require('gulp-plumber');
+const scss = require('gulp-sass');
+const autoprefixer = require('gulp-autoprefixer');
+const minifyCss = require('gulp-clean-css');
+const babel = require('gulp-babel');
+const webpack = require('webpack-stream');
+const uglify = require('gulp-uglify');
+const concat = require('gulp-concat');
+const imagemin = require('gulp-imagemin');
+const browserSync = require('browser-sync').create();
+const dependents = require('gulp-dependents');
+const htmlmin = require('gulp-htmlmin');
+const gulpRename = require('gulp-rename');
 
-  src_folder = './src/',
-  src_assets_folder = src_folder + 'assets/',
-  dist_folder = './dist/',
-  dist_assets_folder = dist_folder + 'assets/',
-  node_modules_folder = './node_modules/',
-  dist_node_modules_folder = dist_folder + 'node_modules/',
+const src_folder = './src/';
+const src_assets_folder = src_folder + 'assets/';
+const dist_folder = './dist/';
+const dist_assets_folder = dist_folder + 'assets/';
+const node_modules_folder = './node_modules/';
+const dist_node_modules_folder = dist_folder + 'node_modules/';
 
-  node_dependencies = Object.keys(require('./package.json').dependencies || {});
+const node_dependencies = Object.keys(require('./package.json').dependencies || {});
 
 gulp.task('clear', () => del([dist_folder]));
 
 gulp.task('html', () => {
-  return gulp.src([src_folder + '**/*.html'], {
-    base: src_folder,
-    since: gulp.lastRun('html')
-  })
+  return gulp.src([src_folder + '**/*.html'])
+    .pipe(htmlmin({
+      collapseWhitespace: true,
+      ignoreCustomComments: true,
+      removeComments: true
+    }))
     .pipe(gulp.dest(dist_folder))
     .pipe(browserSync.stream());
 });
 
 
-gulp.task('sass', () => {
+gulp.task('scss', () => {
   return gulp.src([
-    src_assets_folder + 'sass/**/*.sass',
     src_assets_folder + 'scss/**/*.scss'
-  ], { since: gulp.lastRun('sass') })
+  ], { since: gulp.lastRun('scss') })
     .pipe(sourcemaps.init())
     .pipe(plumber())
     .pipe(dependents())
-    .pipe(sass())
-    .pipe(autoprefixer())
+    .pipe(scss({ outputStyle: 'expanded' }))
+    .pipe(autoprefixer({ cascade: false }))
     .pipe(minifyCss())
     .pipe(sourcemaps.write('.'))
+    .pipe(gulpRename({ prefix: "", suffix: ".min" }))
     .pipe(gulp.dest(dist_assets_folder + 'css'))
     .pipe(browserSync.stream());
 });
@@ -91,9 +95,6 @@ gulp.task('vendor', () => {
     .pipe(browserSync.stream());
 });
 
-gulp.task('build', gulp.series('clear', 'html', 'sass', 'js', 'images', 'vendor'));
-
-gulp.task('dev', gulp.series('html', 'sass', 'js'));
 
 gulp.task('serve', () => {
   return browserSync.init({
@@ -118,11 +119,7 @@ gulp.task('watch', () => {
 
   const watch = [
     src_folder + '**/*.html',
-    src_folder + 'pug/**/*.pug',
-    src_assets_folder + 'sass/**/*.sass',
     src_assets_folder + 'scss/**/*.scss',
-    src_assets_folder + 'less/**/*.less',
-    src_assets_folder + 'stylus/**/*.styl',
     src_assets_folder + 'js/**/*.js'
   ];
 
@@ -131,4 +128,6 @@ gulp.task('watch', () => {
   gulp.watch(watchVendor, gulp.series('vendor')).on('change', browserSync.reload);
 });
 
+gulp.task('dev', gulp.series('html', 'scss', 'js'));
+gulp.task('build', gulp.series('clear', 'html', 'scss', 'js', 'images', 'vendor'));
 gulp.task('default', gulp.series('build', gulp.parallel('serve', 'watch')));
