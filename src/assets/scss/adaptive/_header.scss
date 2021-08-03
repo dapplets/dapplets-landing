@@ -1,8 +1,8 @@
 @media screen and (max-width: 1368px) {
 
-	.header {
+	.header-background {
 		background-image: url('../../images/header-bg/header-bg-table-horizontal.jpg');
-		max-height: 750px;
+		min-height: 749px;
 		padding-top: 63px;
 	}
 
@@ -39,8 +39,9 @@
 	}
 
 	.header__informations {
-		padding-top: 119px;
+		padding-top: 0px;
 		margin-left: 6px;
+		margin-top: -81px;
 	}
 
 	.header__information--1 {
@@ -48,7 +49,7 @@
 	}
 
 	.header__information {
-		margin-top: 45px;
+		margin-top: 50px;
 	}
 }
 
@@ -60,10 +61,10 @@
 
 @media screen and (max-width: 912px) {
 
-	.header {
+	.header-background {
 		padding-top: 74px;
 		background-image: url('../../images/header-bg/header-bg-table-vertical.jpg');
-		max-height: 632px;
+		min-height: 633px;
 	}
 
 	.header__top {
@@ -89,12 +90,12 @@
 	}
 
 	.header__informations {
-   padding-top: 54px;
-    margin-left: 0px;
+		margin-top: -131px;
+  	margin-left: 0px;
 	}
 
 	.header__information {
-        margin-top: 18px;
+    margin-top: 18px;
 	}	
 
 	.header__text br {
@@ -117,16 +118,17 @@
 
 @media screen and (max-width: 750px) {
 
-	.header {
-		max-height: 490px;
-	}
-
 	.header__image {
 		background-size: contain;
 	}
 }
 
 @media screen and (max-width: 650px) {
+
+	.header-background {
+		min-height: 500px;
+	}
+
 	.header__title {
 		font-size: 35px;
 		line-height: 43px;
@@ -150,10 +152,23 @@
 	.header__information--3 {
 		margin-top: 14px;
 	}
+
+	.header__informations {
+		padding-right: 35px;
+	}
 }
 
+@media screen and (max-width: 556px) {
+	.header__informations {
+		padding-right: 20px;
+	}
+}
 
 @media screen and (max-width: 490px) {
+
+.header-background {
+		min-height: 415px;
+	}
 
 	.header__title {
 		font-size: 28px;
@@ -176,11 +191,11 @@
 
 @media screen and (max-width: 360px) {
 
-	.header {
+	.header-background {
 		padding-right: 20px;
 		padding-top: 28px;
 		background-image: url('../../images/header-bg/header-bg-mobile.jpg');
-		max-height: 299px;
+		min-height: 297px;
 	}
 
 	.header__image {
@@ -209,6 +224,7 @@
 
 	.header__informations {
 		padding-top: 36px;
+		margin-top: -68px;
 		margin-left: 6px;
 	}
 
