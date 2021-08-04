@@ -95,8 +95,12 @@
 		max-width: 100%;
 	}
 
+	.our-mission__list {
+		padding-top: 0;
+	}
+
 	.our-mission__item {
-		margin-top: 40px;
+		margin-top: 60px;
 	}
 }
 
@@ -105,10 +109,18 @@
     padding-top: 90px;
 	}
 
+	.our-mission__item {
+		margin-top: 40px;
+	}
+
 	.our-mission__list {
 		padding-top: 0;
 		font-size: 20px;
     line-height: 32px;
+	}
+
+	.our-mission__item::before {
+		bottom: -14px;
 	}
 }
 
