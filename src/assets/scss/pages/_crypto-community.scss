@@ -44,7 +44,7 @@
 }
 
 .crypto-community__technology--1::before {
-	background-image: url('../../images/icons/near-logo.png');
+	background-image: url('../../images/icons/near-logo.svg');
 	width: 105px;
 	height: 104px;
 	left: -124px;
@@ -172,4 +172,71 @@
 
 .crypto-community__item--2 .crypto-community__item-text {
 	max-width: 235px;
+}
+
+.crypto-community__advantages {
+	display: flex;
+	justify-content: space-between;
+	padding-top: 155px;
+
+	list-style: none;
+	padding-left: 0;
+	margin-bottom: 0;
+}
+
+.crypto-community__advantage {
+	position: relative;
+	max-width: 663px;
+	border: 2px solid rgba(0, 0, 0, 0.2);
+
+	padding: 64px 62px 47px;
+	height: 100%;
+}
+
+.crypto-community__advantage:not(:last-child) {
+	margin-right: 20px;
+}
+
+.crypto-community__advantage::before {
+	content: '';
+	position: absolute;
+	background-color: #e6e2e1;
+	border-left: 2px solid rgba(0,0,0,.2);
+	border-bottom: 2px solid #e6e2e1;
+	width: 60px;
+	height: 91px;
+	transform: rotate(45deg);
+	bottom: -36px;
+	right: -20px;
+	overflow: hidden;
+}
+
+.crypto-community__advantage-number {
+	position: absolute;
+	background-color: #e6e2e1;
+	background-image: url('../../images/icons/01.svg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+
+	height: 96px;
+	width: 144px;
+	top: -58px;
+	left: 24px;
+}
+
+.crypto-community__advantage--2 {
+	margin-right: 11%;
+	max-width: 698px;
+	padding: 63px 91px 47px;
+}
+.crypto-community__advantage--2 .crypto-community__advantage-number {
+	background-image: url('../../images/icons/02.svg');
+}
+
+.crypto-community__advantage-text {
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 35px;
+	color: rgba(40, 47, 56, 0.8);
 }

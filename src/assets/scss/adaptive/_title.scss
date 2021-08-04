@@ -7,6 +7,11 @@
 	.title__empty {
 		display: none;
 	}
+
+	.title__advantages {
+		font-size: 86px;
+		line-height: 105px;
+	}
 }
 
 @media screen and (max-width: 650px) {
@@ -31,3 +36,9 @@
 	}
 }
 
+@media screen and (max-width: 540px) {
+.title__advantages {
+		font-size: 24px;
+		line-height: 29px;
+	}
+}
