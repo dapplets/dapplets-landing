@@ -8,15 +8,21 @@ body {
 
 // Elements
 @import url('./elements/_title.scss');
+@import url('./elements/_subtitle.scss');
 
 // Sections
 @import url('./_container.scss');
 @import url('./pages/_header.scss');
 @import url('./pages/_our-missing.scss');
+@import url('./pages/_wrapper-big-bg.scss');
+@import url('./pages/_crypto-community.scss');
 
 
 // Adaptive
+@import url('./adaptive/_title.scss');
+@import url('./adaptive/_subtitle.scss');
 @import url('./adaptive/_container.scss');
 @import url('./adaptive/_header.scss');
 @import url('./adaptive/_our-missing.scss');
-@import url('./adaptive/_title.scss');
+@import url('./adaptive/_wrapper-big-bg.scss');
+@import url('./adaptive/_crypto-community.scss');

@@ -1,0 +1,29 @@
+@media screen and (max-width: 1368px) {
+	.wrapper-big-bg  {
+		background-image: url('../../images/bg/big-bg-table-horizontal.jpg');
+		min-height: 3144px;
+		margin-top: 82px;
+	}
+}
+
+@media screen and (max-width: 912px) {
+	.wrapper-big-bg  {
+		background-image: url('../../images/bg/big-bg-table-vertical.jpg');
+		min-height: 4211px;
+		margin-top: -67px;
+	}
+}
+
+@media screen and (max-width: 360px) {
+	.wrapper-big-bg {
+		background-image: url('../../images/bg/big-bg-mobile.jpg');
+		min-height: 3400px;
+	}
+}
+
+@media screen and (max-width: 330px) {
+	.wrapper-big-bg {
+		min-height: 3116px;
+	}
+}
+

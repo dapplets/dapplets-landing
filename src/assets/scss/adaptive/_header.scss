@@ -8,7 +8,7 @@
 @media screen and (max-width: 1368px) {
 
 	.header-background {
-		background-image: url('../../images/header-bg/header-bg-table-horizontal.jpg');
+		background-image: url('../../images/bg/header-bg-table-horizontal.jpg');
 		min-height: 749px;
 		padding-top: 63px;
 	}
@@ -70,7 +70,7 @@
 
 	.header-background {
 		padding-top: 74px;
-		background-image: url('../../images/header-bg/header-bg-table-vertical.jpg');
+		background-image: url('../../images/bg/header-bg-table-vertical.jpg');
 		min-height: 633px;
 	}
 
@@ -202,12 +202,11 @@
 	}
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 420px) {
 
 	.header-background {
 		padding-right: 20px;
 		padding-top: 28px;
-		background-image: url('../../images/header-bg/header-bg-mobile.jpg');
 		min-height: 297px;
 	}
 
@@ -260,5 +259,11 @@
 
 	.header__information--3 .header__text {
 		max-width: 256px;
+	}
+}
+
+@media screen and (max-width: 360px) {
+	.header-background {
+		background-image: url('../../images/bg/header-bg-mobile.jpg');
 	}
 }
