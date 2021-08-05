@@ -1,0 +1,158 @@
+@media screen and (max-width: 1368px) {
+	.collaborations {
+		margin-top: -20px;
+    margin-left: 5px;
+	}
+
+	.collaborations__list {
+		padding-top: 13px;
+		padding-left: 1px;
+	}
+	
+	.collaborations__inner {
+		margin-top: 55px;
+	}
+
+	.collaborations__item {
+		max-width: 879px;
+	}
+
+	.collaborations__item--2 {
+    max-width: 1050px;
+	}
+}
+
+@media screen and (max-width: 912px) {
+	.collaborations {
+		margin-top: 0;
+		padding-top: 90px;
+    margin-left: -5px;
+	}
+
+	.collaborations__list {
+		padding-top: 42px;
+	}
+
+	.collaborations__inner {
+		margin-top: 21px;
+	}
+
+	.collaborations__item {
+		max-width: 754px;
+	}
+
+	.collaborations__item--2 {
+    padding-top: 69px;
+		max-width: 787px;
+	}
+}
+
+@media screen and (max-width: 765px) {
+	.collaborations__item {
+		flex-direction: column;
+	}
+
+	.collaborations__img {
+		max-width: 210px;
+		width: 100%;
+	}
+
+	.collaborations__inner {
+		margin-left: 0;
+		padding-top: 45px;
+	}
+}
+
+
+@media screen and (max-width: 650px) {
+	.collaborations__img {
+		max-width: 150px;
+	}
+
+	.collaborations__inner {
+		padding-top: 20px;
+	}
+
+	.collaborations__title {
+		font-size: 37px;
+    line-height: 16px;
+	}
+
+	.collaborations__description {
+    font-size: 30px;
+    line-height: 43px;
+	}
+}
+
+@media screen and (max-width: 540px) {
+
+	.collaborations {
+		padding-top: 0;
+	}
+
+	.collaborations__subtitle {
+    font-size: 21px;
+    line-height: 34px;
+	}
+
+	.collaborations__title {
+		font-size: 27px;
+	}
+
+	.collaborations__description {
+		font-size: 21px;
+    line-height: 33px;
+	}
+}
+
+@media screen and (max-width: 420px) {
+	.collaborations  {
+		padding-top: 50px;
+		margin-left: 0;
+	}
+
+	.collaborations__subtitle {
+		font-size: 16px;
+		line-height: 25px;
+		
+    padding-top: 9px;
+    padding-right: 32px;
+    padding-left: 8px;
+	}
+
+	.collaborations__img {
+    max-width: 77px;
+	}
+
+	.collaborations__list {
+    padding-top: 0;
+	}
+	
+	.collaborations__title {
+		font-size: 24px;
+		line-height: 30px;
+	}
+
+	.collaborations__description {
+		font-size: 16px;
+		line-height: 25px;
+		margin-top: -4px;
+	}
+	
+	.collaborations__inner {
+		padding-top: 0;
+		margin-top: 15px;
+	}
+
+	.collaborations__item {
+		max-width: 100%;
+	}
+
+	.collaborations__item--1 {
+		margin-right: 0;
+	}
+
+	.collaborations__item--2 {
+    padding-top: 50px;
+	}
+}

@@ -18,11 +18,14 @@
 	display: flex;
 	flex-wrap: wrap;
 	list-style: none;
-	padding-top: 90px;
+	padding-top: 50px;
 	padding-left: 8px;
+	
+	padding-right: 30px;
 }
 
 .collaborations__item {
+	padding-top: 40px;
 	display: flex;
 	max-width: 753px;
 }

@@ -265,12 +265,17 @@
 
 @media screen and (max-width: 540px) {
 	.crypto-community__advantage-text {
-		font-size: 16px;
+		font-size: 18px;
 		line-height: 25px;
 	}
 }
 
 @media screen and (max-width: 420px) {
+
+	.crypto-community__advantage-text {
+		font-size: 16px;
+		line-height: 25px;
+	}
 
 	.crypto-community {
 		padding-top: 239px;
