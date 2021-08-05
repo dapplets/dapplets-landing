@@ -1,0 +1,19 @@
+.team {
+	padding-top: 87px;
+}
+
+.team__description {
+	padding-top: 19px;
+}
+
+.team__text {
+	font-weight: 300;
+	font-size: 36px;
+	line-height: 50px;
+	color: rgba(40, 47, 56, 0.8);
+}
+
+.team__text:not(:last-child) {
+	margin-bottom: 48px;
+}
+

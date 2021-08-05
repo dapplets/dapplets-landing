@@ -16,7 +16,7 @@
 @media screen and (max-width: 912px) {
 	.wrapper-big-bg  {
 		background-image: url('../../images/bg/big-bg-912-bg.jpg');
-		min-height: 4211px;
+		min-height: 100%;
 		margin-top: -67px;
 	}
 }
@@ -24,13 +24,6 @@
 @media screen and (max-width: 360px) {
 	.wrapper-big-bg {
 		background-image: url('../../images/bg/big-bg-320-bg.jpg');
-		min-height: 3400px;
-	}
-}
-
-@media screen and (max-width: 330px) {
-	.wrapper-big-bg {
-		min-height: 3116px;
 	}
 }
 
