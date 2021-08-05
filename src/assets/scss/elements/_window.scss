@@ -1,0 +1,73 @@
+.window {
+	padding: 37px 30px 37px 47px;
+	background: rgba(32, 32, 40, 0.5);
+	box-shadow: -5px 5px 10px rgba(0, 0, 0, 0.15);
+
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: baseline;
+}
+
+.window--popup {
+	
+}
+
+.window--size-1 {
+	max-width: 647px;
+	width: 100%;
+	min-height: 242px;
+}
+.window--size-2 {
+	max-width: 765px;
+	padding: 42px 32px 41px 57px;
+	width: 100%;
+	min-height: 296px;
+}
+
+.window--slider {
+
+}
+
+.window__title {
+	color: #FFFFFF;
+	font-weight: 900;
+	font-size: 36px;
+	line-height: 42px;
+}
+
+.window__description {
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 30px;
+
+	color: rgba(255, 255, 255, 0.9);
+}
+
+.window__link {
+	font-weight: 900;
+	font-size: 24px;
+	line-height: 30px;
+	color: #75B7F4;
+}
+
+.window__link:hover {
+	color: #75B7F4;
+}
+
+.window__big-bg-top {
+	position: absolute;
+	top: -291px;
+	right: 0;
+}
+
+.window__big-bg-bottom {
+	position: absolute;
+	bottom: -345px;
+	right: 0;
+}
+
+.window__crypto-top .window__description {
+	max-width: 360px;
+}
+

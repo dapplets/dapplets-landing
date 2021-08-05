@@ -6,9 +6,14 @@ body {
 	font-family: 'Roboto', sans-serif;
 }
 
+.wrapper {
+	position: relative;
+}
+
 // Elements
 @import url('./elements/_title.scss');
 @import url('./elements/_subtitle.scss');
+@import url('./elements/_window.scss');
 
 // Sections
 @import url('./_container.scss');
@@ -24,6 +29,7 @@ body {
 // Adaptive
 @import url('./adaptive/_title.scss');
 @import url('./adaptive/_subtitle.scss');
+@import url('./adaptive/_window.scss');
 @import url('./adaptive/_container.scss');
 @import url('./adaptive/_header.scss');
 @import url('./adaptive/_our-missing.scss');

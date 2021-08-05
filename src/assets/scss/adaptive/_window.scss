@@ -1,0 +1,90 @@
+@media screen and (max-width: 1368px) {
+	.window--size-1 {
+		max-width: 654px;
+	}
+
+	.window__big-bg-top {
+		top: -414px;
+	}
+
+	.window--size-2 {
+    max-width: 772px;
+    min-height: 299px;
+	}
+
+	.window__big-bg-bottom {
+		bottom: -404px;
+	}
+}
+
+@media screen and (max-width: 912px) {
+	.window__big-bg-top {
+    top: -428px;
+	}
+
+	.window--size-2 {
+    max-width: 659px;
+		padding: 42px 32px 41px 51px;
+	}
+
+	.window__big-bg-bottom {
+		bottom: -463px;
+	}
+
+	.window__big-bg-bottom .window__title {
+		max-width: 491px;
+	}
+}
+
+@media screen and (max-width: 650px) {
+	.window__big-bg-top {
+   	top: -295px;
+	}
+}
+
+@media screen and (max-width: 540px) {
+	.window__big-bg-bottom {
+		bottom: -335px;
+	}
+}
+
+@media screen and (max-width: 490px) {
+
+	.window__big-bg-bottom {
+		bottom: -158px;
+	}
+
+	.window--size-1,
+	.window--size-2 {
+		max-width: 241px;
+		height: 120px;
+		min-height: auto;
+
+		padding: 10px 17px 19px 24px;
+	}
+
+	.window--size-1	.window__description,
+	.window--size-2	.window__description {
+		margin-bottom: 7px;
+	}
+
+	.window__title {
+		font-size: 16px;
+		line-height: 19px;
+	}
+
+	.window__description {
+		font-size: 14px;
+		line-height: 20px;
+	}
+
+	.window__link {
+		font-size: 16px;
+		line-height: 30px;
+	}
+
+	.window__big-bg-top {
+		top: -147px;
+	}
+
+}
