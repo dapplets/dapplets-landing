@@ -69,6 +69,7 @@
 
 .header__informations {
 	display: flex;
+	flex-direction: column;
 	flex-wrap: wrap;
 
 	padding-right: 54px;
@@ -83,10 +84,6 @@
 .header__information--3 {
 	margin-top: 63px;
 	max-width: 1040px;
-
-	// Для 4к маниторов
-	// Чтобы этот текст переносился вниз
-	margin-right: 358px;
 }
 
 .header__dots {
@@ -121,4 +118,10 @@
 	font-size: 24px;
 	line-height: 50px;
 	color: rgba(40, 47, 56, 0.8);
+}
+
+
+.header__informations__crash {
+	flex-wrap: wrap;
+	display: flex;
 }

@@ -14,6 +14,13 @@
 	}
 }
 
+@media screen and (max-width: 720px) {
+	.title__crypto-community {
+		font-size: 50px;
+    line-height: 60px;
+	}
+}
+
 @media screen and (max-width: 650px) {
 	.title {
 		font-size: 35px;
