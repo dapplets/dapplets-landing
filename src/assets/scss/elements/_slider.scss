@@ -1,0 +1,11 @@
+.slider {
+ 	min-height: 803px;
+	background-color: aqua;
+}
+
+@media screen and (max-width: 420px) {
+	.slider {
+    min-height: 230px;
+    background-color: #0ff;
+	}
+}

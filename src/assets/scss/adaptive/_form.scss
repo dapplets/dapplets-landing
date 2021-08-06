@@ -1,0 +1,63 @@
+@media screen and (max-width: 1620px) {
+	.form__footer {
+		right: 20px;
+	}
+}
+
+@media screen and (max-width: 1368px) {
+	.form__footer {
+    right: 90px;
+	}
+}
+
+@media screen and (max-width: 1215px) {
+	.form__footer {
+    right: 0;
+	}
+}
+
+@media screen and (max-width: 1115px) {
+	.form__footer {
+		margin-top: 95px;
+		position: static;
+	}
+}
+
+
+@media screen and (max-width: 320px) {
+	.form__footer {
+    margin-top: 52px;
+    position: static;
+	}
+
+	.form {
+		height: 362px;
+		padding: 25px 31px 10px;
+	}
+
+	.form__title {
+		font-size: 24px;
+		line-height: 28px;
+	}
+
+	.form__inputs {
+		padding-top: 0;
+	}
+
+	.form__textarea {
+		margin-top: -4px;
+		height: 110px;
+	}
+
+	.form__button {
+		font-size: 16px;
+	}
+
+	.form__button {
+    margin-top: 5px;
+    padding: 6px 13px;
+    max-width: 124px;
+	}
+}
+
+// added footer and adaptiv for it

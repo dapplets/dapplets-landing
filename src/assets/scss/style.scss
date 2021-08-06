@@ -14,6 +14,8 @@ body {
 @import url('./elements/_title.scss');
 @import url('./elements/_subtitle.scss');
 @import url('./elements/_window.scss');
+@import url('./elements/_form.scss');
+@import url('./elements/_slider.scss');
 
 // Sections
 @import url('./_container.scss');
@@ -24,6 +26,7 @@ body {
 @import url('./pages/_team.scss');
 @import url('./pages/_collaborations.scss');
 @import url('./pages/_partners.scss');
+@import url('./pages/_footer.scss');
 
 
 // Adaptive
@@ -38,3 +41,5 @@ body {
 @import url('./adaptive/_team.scss');
 @import url('./adaptive/_collaborations.scss');
 @import url('./adaptive/_partners.scss');
+@import url('./adaptive/_form.scss');
+@import url('./adaptive/_footer.scss');

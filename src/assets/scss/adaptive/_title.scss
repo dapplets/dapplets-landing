@@ -12,6 +12,11 @@
 		font-size: 86px;
 		line-height: 105px;
 	}
+
+	.title__size-s {
+		font-size: 56px;
+		line-height: 68px;
+	}
 }
 
 @media screen and (max-width: 720px) {
@@ -25,6 +30,18 @@
 	.title {
 		font-size: 35px;
     line-height: 43px;
+	}
+
+	.title__size-s {
+    font-size: 40px;
+    line-height: 53px;
+	}
+}
+
+@media screen and (max-width: 540px) {
+.title__advantages {
+		font-size: 24px;
+		line-height: 29px;
 	}
 }
 
@@ -41,11 +58,10 @@
 	.title__crypto-community {
 		max-width: 273px;
 	}
-}
 
-@media screen and (max-width: 540px) {
-.title__advantages {
-		font-size: 24px;
+	.title__size-s {
+    font-size: 24px;
 		line-height: 29px;
 	}
 }
+

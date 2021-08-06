@@ -1,24 +1,6 @@
 {
-  "name": "@jr-cologne/create-gulp-starter-kit",
-  "version": "0.11.0-beta",
-  "description": "A simple Gulp 4 Starter Kit for modern web development.",
-  "keywords": [
-    "gulp",
-    "gulp-starter-kit",
-    "sass",
-    "scss",
-    "less",
-    "stylus",
-    "pug",
-    "babel",
-    "browser-sync",
-    "autoprefixer",
-    "modern-web-dev",
-    "imagemin",
-    "sourcemaps",
-    "webpack-stream",
-    "es6-modules"
-  ],
+  "name": "@dapplets/dapplets-landing",
+  "version": "0.1.0",
   "scripts": {
     "start": "gulp",
     "build": "gulp build"
