@@ -39,6 +39,21 @@
 @media screen and (max-width: 650px) {
 	.window__big-bg-top {
    	top: -295px;
+		right: -35px;
+	}
+
+	.window__big-bg-bottom {
+		right: -35px;
+	}
+}
+
+@media screen and (max-width: 565px) {
+	.window__big-bg-top {
+		right: -20px;
+	}
+
+	.window__big-bg-bottom {
+		right: -20px;
 	}
 }
 
@@ -47,6 +62,7 @@
 		bottom: -335px;
 	}
 }
+
 
 @media screen and (max-width: 490px) {
 

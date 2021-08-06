@@ -51,16 +51,16 @@
 .window__big-bg-top {
 	position: absolute;
 	top: -291px;
-	right: 0;
+	right: -60px;
 }
 
 .window__big-bg-bottom {
 	position: absolute;
 	bottom: -345px;
-	right: 0;
+	right: -60px;
 }
 
-.window__crypto-top .window__description {
+.window__big-bg-top .window__description {
 	max-width: 360px;
 }
 

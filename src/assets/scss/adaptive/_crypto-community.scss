@@ -35,6 +35,7 @@
 
 	.crypto-community__advantages {
     margin-left: -13px;
+		overflow: hidden;
 	}
 
 	.crypto-community__advantage {
@@ -70,7 +71,7 @@
 
 	.crypto-community__list {
 		margin-top: -10px;
-		margin-right: 5%;
+		margin-right: 0;
 	}
 
 	.crypto-community__advantages {
@@ -88,14 +89,8 @@
 
 	.crypto-community__advantage--2 {
 		max-width: 638px;
-		margin-right: 5%;
+		margin-right: 1%;
 		padding-left: 42px;
-	}
-}
-
-@media screen and (max-width: 1330px) {
-	.crypto-community__list {
-		margin-right: 2%;
 	}
 }
 
@@ -167,7 +162,7 @@
 	}
 
 	.crypto-community__advantages {
-		padding-right: 128px;
+		padding-right: 68px;
     padding-left: 59px;
 	}
 
@@ -188,7 +183,7 @@
 @media screen and (max-width: 850px) {
 	.crypto-community__advantages {
 		padding-left: 0;
-		padding-right: 67px;
+		padding-right: 0;
 	}
 }
 
@@ -259,7 +254,14 @@
 
 	.crypto-community__advantage, 
 	.crypto-community__advantage:not(:last-child) {
-		margin-right: 40px;
+		margin-right: 0;
+	}
+
+	.crypto-community__advantage::before {
+		width: 48px;
+		height: 54px;
+		bottom: -27px;
+		right: -23px;
 	}
 }
 
@@ -279,7 +281,7 @@
 
 	.crypto-community {
 		padding-top: 239px;
-    margin-left: 9px;
+    margin-left: 6px;
 	}
 
 	.crypto-community__technologies {
@@ -315,7 +317,7 @@
 	}
 
 	.crypto-community__item {
-    margin: 0px 25px 6px 0;
+    margin: 0 4px 6px 0;
 	}
 
 	.crypto-community__item-header {
