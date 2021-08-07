@@ -64,3 +64,40 @@
 	max-width: 360px;
 }
 
+.window-slider {
+	position: relative;
+	max-width: 901px;
+	height: 298px;
+	padding: 40px 223px 43px 178px;
+}
+
+.window-slider .window__title {
+	max-width: 405px;
+}
+
+.window-slider__arrow {
+	border: none;
+	position: absolute;
+	background-color: transparent;
+
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.window-slider__arrow:focus {
+	outline: none;
+}
+
+.window-slider__arrow img {
+	width: 100%;
+	pointer-events: none;
+}
+
+.window-slider__arrow--left {
+	transform: translateY(-50%) rotate(180deg);
+	left: 40px;
+}
+
+.window-slider__arrow--right {
+	right: 40px;
+}

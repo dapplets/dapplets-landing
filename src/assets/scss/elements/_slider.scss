@@ -1,11 +1,19 @@
 .slider {
- 	min-height: 803px;
-	background-color: aqua;
+	padding-top: 271px;
+ 	background-image: url('../../images/bg/slider-3840-bg.jpg');
+	min-height: 803px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
 }
 
-@media screen and (max-width: 420px) {
-	.slider {
-    min-height: 230px;
-    background-color: #0ff;
-	}
+.slider__list  {
+	padding-left: 0;
+	list-style: none;
+}
+
+.slider-container {
+	position: relative;
+	width: 901px;
+	margin: 0 auto;
 }

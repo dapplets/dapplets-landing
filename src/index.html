@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.3/tiny-slider.css">
   <link rel="stylesheet" href="./assets/css/style.min.css">
   <title>Dapplets</title>
 </head>
@@ -418,6 +419,7 @@
             </p>
           </div>
         </li>
+
       </ul>
 
     </div>
@@ -459,7 +461,48 @@
   </section>
 
   <!-- SLIDER -->
-  <div class="slider"></div>
+  <div class="slider">
+    <div class="container">
+
+      <div class="slider__wrapper slider-container">
+        <ul class="slider__list slider-wrapper">
+
+          <li class="slider__item window window-slider slider-slide">
+            <header class="window__header">
+              <h6 class="window__title">Want to be the part of our team? 1111</h6>
+              <p class="window__description">To restore the freedom to receive information without censorship or
+                manipulation.</p>
+            </header>
+            <a href="#" class="window__link" target="_blank">Learn more</a>
+          </li>
+
+          <li class="slider__item window window-slider slider-slide">
+            <header class="window__header">
+              <h6 class="window__title">Want to be the part of our team? 2222</h6>
+              <p class="window__description">To restore the freedom to receive information without censorship or
+                manipulation.</p>
+            </header>
+            <a href="#" class="window__link" target="_blank">Learn more</a>
+          </li>
+        </ul>
+
+        <button class="window-slider__arrow window-slider__arrow--left slider-left">
+          <img src="./assets/images/icons/arrow-icon.svg" alt="Arrow Left">
+        </button>
+        <button class="window-slider__arrow window-slider__arrow--right slider-right">
+          <img src="./assets/images/icons/arrow-icon.svg" alt="Arrow Right">
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <div class="window window--popup window--size-1 window__big-bg-top">
+    <header class="window__header">
+      <h6 class="window__title">Want to share our values?</h6>
+      <p class="window__description">Became a contributor to our community</p>
+    </header>
+    <a href="#" class="window__link" target="_blank">Contact us</a>
+  </div>
 
   <!-- FOOTER -->
   <footer class="footer">
@@ -540,9 +583,9 @@
     </div>
   </footer>
 
-
-
-  <script async src="/assets/js/script.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
+  <script async src="./assets/js/script.js"></script>
 </body>
 
 </html>
