@@ -95,6 +95,11 @@ gulp.task('vendor', () => {
     .pipe(browserSync.stream());
 });
 
+gulp.task('fonts', () => {
+  return gulp.src([src_assets_folder + 'fonts/**/*'])
+    .pipe(gulp.dest(dist_assets_folder + 'fonts'))
+});
+
 
 gulp.task('serve', () => {
   return browserSync.init({
@@ -120,7 +125,8 @@ gulp.task('watch', () => {
   const watch = [
     src_folder + '**/*.html',
     src_assets_folder + 'scss/**/*.scss',
-    src_assets_folder + 'js/**/*.js'
+    src_assets_folder + 'js/**/*.js',
+    src_assets_folder + 'fonts/**/*'
   ];
 
   gulp.watch(watch, gulp.series('dev')).on('change', browserSync.reload);
@@ -128,6 +134,6 @@ gulp.task('watch', () => {
   gulp.watch(watchVendor, gulp.series('vendor')).on('change', browserSync.reload);
 });
 
-gulp.task('dev', gulp.series('html', 'scss', 'js'));
-gulp.task('build', gulp.series('clear', 'html', 'scss', 'js', 'images', 'vendor'));
+gulp.task('dev', gulp.series('html', 'scss', 'js', 'fonts'));
+gulp.task('build', gulp.series('clear', 'html', 'scss', 'js', 'images', 'vendor', 'fonts'));
 gulp.task('default', gulp.series('build', gulp.parallel('serve', 'watch')));
