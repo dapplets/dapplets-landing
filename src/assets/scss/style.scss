@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;900&family=Roboto:wght@100;300;500;900&display=swap');
 
-@import url('./base/_bootstrap-reboot.min.scss');
+@import './base/_bootstrap-reboot.min.scss';
 
 body {
 	font-family: 'Roboto', sans-serif;
@@ -11,36 +11,36 @@ body {
 }
 
 // Elements
-@import url('./elements/_title.scss');
-@import url('./elements/_subtitle.scss');
-@import url('./elements/_window.scss');
-@import url('./elements/_form.scss');
-@import url('./elements/_slider.scss');
+@import './elements/_title.scss';
+@import './elements/_subtitle.scss';
+@import './elements/_window.scss';
+@import './elements/_form.scss';
+@import './elements/_slider.scss';
 
 // Sections
-@import url('./_container.scss');
-@import url('./pages/_header.scss');
-@import url('./pages/_our-missing.scss');
-@import url('./pages/_wrapper-big-bg.scss');
-@import url('./pages/_crypto-community.scss');
-@import url('./pages/_team.scss');
-@import url('./pages/_collaborations.scss');
-@import url('./pages/_partners.scss');
-@import url('./pages/_footer.scss');
+@import './_container.scss';
+@import './pages/_header.scss';
+@import './pages/_our-missing.scss';
+@import './pages/_wrapper-big-bg.scss';
+@import './pages/_crypto-community.scss';
+@import './pages/_team.scss';
+@import './pages/_collaborations.scss';
+@import './pages/_partners.scss';
+@import './pages/_footer.scss';
 
 
 // Adaptive
-@import url('./adaptive/_title.scss');
-@import url('./adaptive/_subtitle.scss');
-@import url('./adaptive/_window.scss');
-@import url('./adaptive/_container.scss');
-@import url('./adaptive/_header.scss');
-@import url('./adaptive/_our-missing.scss');
-@import url('./adaptive/_wrapper-big-bg.scss');
-@import url('./adaptive/_crypto-community.scss');
-@import url('./adaptive/_team.scss');
-@import url('./adaptive/_collaborations.scss');
-@import url('./adaptive/_partners.scss');
-@import url('./adaptive/_form.scss');
-@import url('./adaptive/_slider.scss');
-@import url('./adaptive/_footer.scss');
+@import './adaptive/_title.scss';
+@import './adaptive/_subtitle.scss';
+@import './adaptive/_window.scss';
+@import './adaptive/_container.scss';
+@import './adaptive/_header.scss';
+@import './adaptive/_our-missing.scss';
+@import './adaptive/_wrapper-big-bg.scss';
+@import './adaptive/_crypto-community.scss';
+@import './adaptive/_team.scss';
+@import './adaptive/_collaborations.scss';
+@import './adaptive/_partners.scss';
+@import './adaptive/_form.scss';
+@import './adaptive/_slider.scss';
+@import './adaptive/_footer.scss';

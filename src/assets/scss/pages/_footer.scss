@@ -31,10 +31,10 @@
 
 .footer__github-link {
 	display: block;
-}
 
-.footer__github-link:hover {
-	color: rgba(40, 47, 56, 0.8);
+	&:hover {
+		color: rgba(40, 47, 56, 0.8);
+	}
 }
 
 .footer__social {
@@ -61,10 +61,10 @@
 
 .footer__social-item {
 	cursor: pointer;
-}
 
-.footer__social-item:hover {
-	filter: brightness(60%);
+	&:hover {
+		filter: brightness(60%);
+	}
 }
 
 .footer__social-item:not(:last-child) {

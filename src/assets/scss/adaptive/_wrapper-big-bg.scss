@@ -1,13 +1,13 @@
 @media  screen and (max-width: 1920px){
 	.wrapper-big-bg { 
-		background-image: url('../../images/bg/big-bg-1920-bg.jpg');
+		background-image: url('../images/bg/big-bg-1920-bg.jpg');
 		min-height: 3200px;
 	}
 }
 
 @media screen and (max-width: 1368px) {
 	.wrapper-big-bg  {
-		background-image: url('../../images/bg/big-bg-1368-bg.jpg');
+		background-image: url('../images/bg/big-bg-1368-bg.jpg');
 		min-height: 3144px;
 		margin-top: 82px;
 	}
@@ -15,7 +15,7 @@
 
 @media screen and (max-width: 912px) {
 	.wrapper-big-bg  {
-		background-image: url('../../images/bg/big-bg-912-bg.jpg');
+		background-image: url('../images/bg/big-bg-912-bg.jpg');
 		min-height: 100%;
 		margin-top: -67px;
 	}
@@ -23,7 +23,7 @@
 
 @media screen and (max-width: 360px) {
 	.wrapper-big-bg {
-		background-image: url('../../images/bg/big-bg-320-bg.jpg');
+		background-image: url('../images/bg/big-bg-320-bg.jpg');
 	}
 }
 

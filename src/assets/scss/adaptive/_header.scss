@@ -1,6 +1,6 @@
 @media screen and (max-width: 1920px) {
 	.header-background {
-		background-image: url('../../images/bg/header-1920-bg.jpg');
+		background-image: url('../images/bg/header-1920-bg.jpg');
 		min-height: 810px;
 	}
 }
@@ -8,7 +8,7 @@
 @media screen and (max-width: 1368px) {
 
 	.header-background {
-		background-image: url('../../images/bg/header-1368-bg.jpg');
+		background-image: url('../images/bg/header-1368-bg.jpg');
 		min-height: 749px;
 		padding-top: 63px;
 	}
@@ -18,7 +18,7 @@
 	}
 
 	.header__image {
-		background-image: url('../../images/header/dapplets-project-table-horizontal.png');
+		background-image: url('../images/header/dapplets-project-table-horizontal.png');
 		height: 225px;
 	}
 
@@ -70,7 +70,7 @@
 
 	.header-background {
 		padding-top: 74px;
-		background-image: url('../../images/bg/header-912-bg.jpg');
+		background-image: url('../images/bg/header-912-bg.jpg');
 		min-height: 560px;
 	}
 
@@ -89,7 +89,7 @@
 		background-size: auto;
 		max-width: 633px;
 		height: 145px;
-		background-image: url('../../images/header/dapplets-project-table-vertical.png');
+		background-image: url('../images/header/dapplets-project-table-vertical.png');
 	}
 
 	.header__bottom {
@@ -205,7 +205,7 @@
 		background-size: contain;
 		max-width: 100%;
 		height: 65px;
-		background-image: url('../../images/header/dapplets-project-mobile.png');
+		background-image: url('../images/header/dapplets-project-mobile.png');
 		background-position: center;
 	}
 
@@ -256,7 +256,7 @@
 
 @media screen and (max-width: 360px) {
 	.header-background {
-		background-image: url('../../images/bg/header-320-bg.jpg');
+		background-image: url('../images/bg/header-320-bg.jpg');
 	}
 }
 
