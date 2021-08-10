@@ -6,7 +6,7 @@
 	position: relative;
 	display: flex;
 	justify-content: space-between;
-	padding-bottom: 93px;
+	padding-bottom: 87px;
 }
 
 .footer__come-in {
@@ -38,23 +38,25 @@
 }
 
 .footer__social {
-	padding-top: 89px;
+	padding-top: 75px;
 }
 
 .footer__social-list {
-	padding-top: 36px;
+	margin-left: -5px;
+
+	padding-top: 10px;
 
 	list-style: none;
 	padding-left: 0;
 	margin-bottom: 0;
 
 	display: flex;
-	align-items: center;
 }
 
 .footer__social-title {
 	font-weight: 500;
 	font-size: 24px;
+	max-width: 500px;
 	line-height: 30px;
 	color: rgba(40, 47, 56, 0.8);
 }
@@ -62,11 +64,32 @@
 .footer__social-item {
 	cursor: pointer;
 
+	&--youtube {
+		margin-top: 9px;
+	}
+
+	&--telegram {
+		margin-top: 4px;
+	}
+
+	&--internet {
+		margin-top: 3px;
+	}
+
+	&--discord {
+		margin-top: 4px;
+	}
+
+	&--email {
+		margin-top: 8px;
+	}
+
+
 	&:hover {
 		filter: brightness(60%);
 	}
 }
 
 .footer__social-item:not(:last-child) {
-	margin-right: 25px;
+	margin-right: 29px;
 }
