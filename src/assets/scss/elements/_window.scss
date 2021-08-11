@@ -74,10 +74,16 @@
 .window-slider .window__title {
 	text-transform: capitalize;
 	max-width: 409px;
+	margin-bottom: 20px;
 }
 
 .window-slider .window__description {
 	font-weight: 300;
+}
+
+.window-slider .window__link {
+	display: block;
+	margin-top: 15px;
 }
 
 .window-slider__arrow {
