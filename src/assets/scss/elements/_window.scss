@@ -67,12 +67,12 @@
 .window-slider {
 	position: relative;
 	max-width: 901px;
-	height: 298px;
+	min-height: 298px;
 	padding: 40px 223px 43px 178px;
 }
 
 .window-slider .window__title {
-	max-width: 405px;
+	max-width: 409px;
 }
 
 .window-slider__arrow {

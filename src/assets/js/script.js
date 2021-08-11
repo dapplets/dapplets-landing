@@ -5,6 +5,7 @@ const slider = tns({
 	controls: false,
 	nav: false,
 	mouseDrag: true,
+	autoHeight: true,
 });
 
 sliderButton('.slider-left', 'prev');
