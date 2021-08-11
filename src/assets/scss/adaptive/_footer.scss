@@ -120,4 +120,8 @@
     max-width: 30px;
 		margin-right: 14px;
 	}
+
+	.footer__social-item:not(:last-child) {
+    margin-right: 13px;
+	}
 }

@@ -181,6 +181,7 @@
 
 	.window-slider {
 		padding: 18px 59px 4px 49px;
+		min-height: auto;
 	}
 
 	.window-slider .window__title {
@@ -192,6 +193,7 @@
     margin-bottom: 0;
     font-size: 10px;
 		line-height: 15px;
+		font-weight: 300;
 	}
 
 	.window-slider .window__link {
