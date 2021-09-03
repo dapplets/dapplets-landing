@@ -1,15 +1,15 @@
 .form {
-	max-width: 447px;
-	height: 539px;
+	max-width: 442px;
+	height: 394px;
 	background: rgba(32, 32, 40, 0.5);
 	box-shadow: -5px 5px 10px rgba(0, 0, 0, 0.15);
-
-	padding: 68px 33px 27px;
+	padding: 26px 40px 31px 32px;
+	width: 100%;
 }
 
 .form__footer {
 	position: absolute;
-	right: 8%;
+	right: 7.7%;
 	bottom: 0;
 }
 
@@ -22,11 +22,22 @@
 }
 
 .form__inputs {
-	padding-top: 33px;
+	padding-top: 54px;
 }
 
-.form__input,
-.form__textarea {
+.form__subscribe {
+	font-weight: 900;
+	font-size: 36px;
+	line-height: 42px;
+
+	color: #FFFFFF;
+}
+
+.form__mail {
+	width: 100%;
+}
+
+.form__input {
 	padding: 10px 10px;
 	width: 100%;
 	background: #FFFFFF;
@@ -46,17 +57,8 @@
 	height: 39px;
 }
 
-.form__textarea {
-	margin-top: 7px;
-}
-
-.form__textarea {
-	height: 187px;
-	resize: none;
-}
-
 .form__button {
-	margin-top: 10px;
+	margin-top: 4px;
 
 	border: none;
 	background-color: #75B7F4;
