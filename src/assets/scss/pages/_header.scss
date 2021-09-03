@@ -6,64 +6,27 @@
 	padding-top: 78px;
 }
 
-.header__top {
-	max-width: 1160px;
-	margin-left: auto;
-}
-
-.header__project {
-	display: block;
-	text-align: right;
-
-	margin-right: 18px;
-	letter-spacing: 2.8px;
-
-	font-weight: 200;
-	font-size: 64px;
-	line-height: 59px;
-	color: #232629;
-}
-
-.header__image {
-	display: block;
-	background-image: url('../images/header/dapplets-project.png');
-	background-repeat: no-repeat;
-	height: 259px;
-}
-
-.header__bottom {
-	padding-top: 24px;
+.header__wrapper {
+	max-width: 965px;
+	margin: 0 auto;
+	padding-top: 54px;
 }
 
 .header__title {
-	font-family: 'Montserrat', sans-serif;
+	max-width: 965px;
 
-	max-width: 1010px;
-
-	font-weight: 900;
-	font-size: 86px;
-	line-height: 105px;
-
-	color: #232629;
+	img {
+		width: 100%;
+	}
 }
 
-.header__title-main {
-	position: relative;
-}
-
-.header__title-border {
-	position: absolute;
-	top: -4px;
-	left: -5px;
-
-	-webkit-text-fill-color:transparent; 
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: rgba(#000000, .3);
-}
-
-.header__title-description {
-	display: block;
-	font-weight: 100;
+.header__subtitle {
+	font-family: Montserrat, sans-serif;
+	font-style: normal;
+	font-weight: 200;
+	font-size: 36px;
+	line-height: 54px;
+	color: #262629;
 }
 
 .header__informations {

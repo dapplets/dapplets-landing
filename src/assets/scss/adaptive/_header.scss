@@ -1,266 +1,216 @@
 @media screen and (max-width: 1920px) {
-	.header-background {
-		background-image: url('../images/bg/header-1920-bg.jpg');
-		min-height: 810px;
-	}
+  .header-background {
+    background-image: url('../images/bg/header-1920-bg.jpg');
+    min-height: 810px;
+  }
+
+  .header__wrapper {
+    margin: 0 0 0 182px;
+  }
 }
 
 @media screen and (max-width: 1368px) {
 
-	.header-background {
-		background-image: url('../images/bg/header-1368-bg.jpg');
-		min-height: 749px;
-		padding-top: 63px;
-	}
+  .header-background {
+    background-image: url('../images/bg/header-1368-bg.jpg');
+    min-height: 726px;
+    padding-top: 63px;
+  }
 
-	.header__top {
-		max-width: 971px;
-	}
+  .header__wrapper {
+    margin: 0 auto;
+    max-width: 660px;
+    padding-top: 85px;
+  }
 
-	.header__image {
-		background-image: url('../images/header/dapplets-project-table-horizontal.png');
-		height: 225px;
-	}
+  .header__subtitle {
+    font-size: 24px;
+    line-height: 36px
+  }
 
-	.header__title {
-		max-width: 780px;
-		font-size: 56px;
-		line-height: 68px;
-	}
 
-	.header__title-description {
-		display: inline;
-	}
+  .header__informations {
+    padding-top: 25px;
+    margin-left: 6px;
+    margin-top: -81px;
+  }
 
-	.header__title-border {
-		display: none;
-	}
-
-	.header__project {
-		font-size: 45px;
-		line-height: 55px;
-	}
-
-	.header__bottom {
-    padding-top: 69px;
-	}
-
-	.header__informations {
-		padding-top: 0px;
-		margin-left: 6px;
-		margin-top: -81px;
-	}
-
-	.header__information--1 {
+  .header__information--1 {
     margin-right: 152px;
-	}
+  }
 
-	.header__information {
-		margin-top: 50px;
-	}
+  .header__information {
+    margin-top: 50px;
+  }
 }
 
 @media screen and (max-width: 1700px) {
-	.header__image {
-		background-size: contain;
-	}
+  .header__image {
+    background-size: contain;
+  }
 }
 
 @media screen and (max-width: 912px) {
 
-	.header-background {
-		padding-top: 74px;
-		background-image: url('../images/bg/header-912-bg.jpg');
-		min-height: 560px;
-	}
+  .header-background {
+    padding-top: 74px;
+    background-image: url('../images/bg/header-912-bg.jpg');
+    min-height: 560px;
+  }
 
-	.header__top {
-		max-width: 633px;
-	}
+  .header__wrapper {
+    padding-top: 74px;
+  }
 
-	.header__project {
-		font-size: 24px;
-		line-height: 29px;
-		margin-right: 6px;
-		letter-spacing: 1.4px;
-	}
+  .header__informations {
+    margin-top: -57px;
+    padding-right: 0;
+    margin-left: 0;
+    padding-top: 0;
+  }
 
-	.header__image {
-		background-size: auto;
-		max-width: 633px;
-		height: 145px;
-		background-image: url('../images/header/dapplets-project-table-vertical.png');
-	}
-
-	.header__bottom {
-    padding-top: 57px;
-	}
-
-	.header__informations {
-		margin-top: -57px;
-  	margin-left: 0px;
-		padding-right: 0;
-	}
-
-	.header__information {
+  .header__information {
     margin-top: 73px;
-	}	
+  }
 
-	.header__information--2 {
-		margin-top: 18px;
-	}
+  .header__information--2 {
+    margin-top: 18px;
+  }
 
-	.header__text br {
-		display: inline;
-		content: ' ';
-		clear:none;
-	}
+  .header__text br {
+    display: inline;
+    content: ' ';
+    clear: none;
+  }
 
-	.header__text br::after {
-		content: ' ';
-	}
+  .header__text br::after {
+    content: ' ';
+  }
 
-	.header__information--1 .header__text {
-		max-width: 599px;
-	}
+  .header__information--1 .header__text {
+    max-width: 599px;
+  }
 
-	.header__information--2 .header__text {
-		max-width: 516px;
-	}
+  .header__information--2 .header__text {
+    max-width: 516px;
+  }
 
-	.header__information--3 {
-		margin-top: 31px;
-	}
+  .header__information--3 {
+    margin-top: 31px;
+  }
 
 }
 
 @media screen and (max-width: 750px) {
 
-	.header__image {
-		background-size: contain;
-	}
+  .header__image {
+    background-size: contain;
+  }
+
+  .header__wrapper {
+    padding-top: 74px;
+    margin: 0 auto;
+    padding-left: 35px;
+    padding-right: 35px;
+  }
 }
 
 @media screen and (max-width: 650px) {
 
-	.header-background {
-		min-height: 500px;
-	}
+  .header-background {
+    min-height: 500px;
+  }
 
-	.header__title {
-		font-size: 35px;
-		line-height: 43px;
-	}
+  .header__information {
+    max-width: 100%;
+    margin-right: 0;
+  }
 
-	.header__bottom {
-    padding-top: 5px;
-	}
+  .header__text {
+    font-size: 20px;
+    line-height: 32px;
+  }
 
-	.header__information {
-		max-width: 100%;
-		margin-right: 0;
-	}
+  .header__information,
+  .header__information--3 {
+    margin-top: 14px;
+  }
 
-	.header__text {
-		font-size: 20px;
-		line-height: 32px;
-	}
-
-	.header__information,
-	.header__information--3 {
-		margin-top: 14px;
-	}
-
-	.header__informations {
-		padding-right: 35px;
-	}
+  .header__informations {
+    padding-right: 35px;
+  }
 }
 
 @media screen and (max-width: 556px) {
-	.header__informations {
-		padding-right: 20px;
-	}
+  .header__informations {
+    padding-right: 20px;
+  }
 }
 
 @media screen and (max-width: 490px) {
 
-.header-background {
-		min-height: 415px;
-	}
+  .header-background {
+    min-height: 415px;
+  }
 
-	.header__image {
-		height: 100px;
-	}
-
-	.header__informations {
-		padding-top: 80px;
-	}
+  .header__informations {
+    padding-top: 80px;
+  }
 }
 
 @media screen and (max-width: 420px) {
 
-	.header-background {
-		padding-right: 0;
-		padding-top: 28px;
-		min-height: 297px;
-	}
+  .header__wrapper {
+    padding-top: 53px;
+    padding-left: 28px;
+    padding-right: 23px;
+  }
 
-	.header__image {
-		background-size: contain;
-		max-width: 100%;
-		height: 65px;
-		background-image: url('../images/header/dapplets-project-mobile.png');
-		background-position: center;
-	}
+  .header__subtitle {
+    font-size: 10px;
+    display: block;
+    margin-top: -8px;
+    line-height: 15px;
+  }
 
-	.header__project {
-		font-size: 10px;
-		margin-right: -2px;
-		line-height: 12px;
-	}
+  .header-background {
+    padding-right: 0;
+    padding-top: 28px;
+    min-height: 297px;
+  }
 
-	.header__title {
-		text-align: center;
-		font-size: 24px;
-		line-height: 29px;
-	}
+  .header__informations {
+    padding-top: 36px;
+    margin-top: -68px;
+    margin-left: 6px;
+    padding-right: 0;
+  }
 
-	.header__bottom {
-		padding-top: 30px;
-	}
+  .header__text {
+    font-size: 16px;
+    line-height: 25px;
+  }
 
-	.header__informations {
-		padding-top: 36px;
-		margin-top: -68px;
-		margin-left: 6px;
-		padding-right: 0;
-	}
-
-	.header__text {
-		font-size: 16px;
-		line-height: 25px;
-	}
-
-	.header__information--3 {
+  .header__information--3 {
     padding-top: 8px;
-	}
+  }
 
-	.header__information--1 .header__text {
+  .header__information--1 .header__text {
     max-width: 269px;
-	}
+  }
 
-	.header__information--2 .header__text {
+  .header__information--2 .header__text {
     max-width: 218px;
-	}
+  }
 
-	.header__information--3 .header__text {
-		max-width: 256px;
-	}
+  .header__information--3 .header__text {
+    max-width: 256px;
+  }
 }
 
 @media screen and (max-width: 360px) {
-	.header-background {
-		background-image: url('../images/bg/header-320-bg.jpg');
-	}
+  .header-background {
+    background-image: url('../images/bg/header-320-bg.jpg');
+  }
 }
 
