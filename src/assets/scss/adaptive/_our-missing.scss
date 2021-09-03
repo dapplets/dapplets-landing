@@ -1,161 +1,166 @@
 @media screen and (max-width: 1710px) {
-	.our-mission__item:not(:last-child) {
-		margin-right: 45px;
-	}
+  .our-mission__item:not(:last-child) {
+    margin-right: 45px;
+  }
 }
 
 @media screen and (max-width: 1590px) {
-	.our-mission__item:not(:last-child) {
-		margin-right: 45px;
-	}
+  .our-mission__item:not(:last-child) {
+    margin-right: 45px;
+  }
 }
 
 @media screen and (max-width: 1368px) {
-	.our-mission {
-		padding-top: 137px;
-	}
-	
-	.our-mission__item {
-		max-width: 565px;
-	}
+  .our-mission {
+    padding-top: 137px;
+  }
 
-	.our-mission__item br {
-		display: inline;
-		content: ' ';
-		clear:none;
-	}
+  .our-mission__item {
+    max-width: 565px;
+  }
 
-	.our-mission__list {
-		margin-left: 0;
-		justify-content: space-between;
-		padding-right: 0;
-	}
+  .our-mission__item br {
+    display: inline;
+    content: ' ';
+    clear: none;
+  }
 
-	.our-mission__item br::after {
-		content: ' ';
-	}
+  .our-mission__list {
+    margin-left: 0;
+    justify-content: space-between;
+    padding-right: 0;
+  }
 
-	.our-mission__item:not(:last-child) {
-		margin-right: 0;
-	}
+  .our-mission__item br::after {
+    content: ' ';
+  }
 
-	.our-mission__item--1 {
-		margin-right: 67px;
-	}
+  .our-mission__item:not(:last-child) {
+    margin-right: 0;
+  }
 
-	.our-mission__item--2 {
-		margin-right: 101px;
-	}
+  .our-mission__item--1 {
+    margin-right: 67px;
+  }
 
-	.our-mission__item--3,
-	.our-mission__item--4 {
-		margin-top: 117px;
-	}
+  .our-mission__item--2 {
+    margin-right: 101px;
+  }
+
+  .our-mission__item--3,
+  .our-mission__item--4 {
+    margin-top: 117px;
+  }
 }
 
 @media screen and (max-width: 1230px) {
-	.our-mission__item {
-		max-width: 473px;
-	}
+  .our-mission__item {
+    max-width: 473px;
+  }
 }
 
 @media screen and (max-width: 1070px) {
-	.our-mission {
+  .our-mission {
     padding-top: 113px;
-	}
+  }
 
-	.our-mission__list {
-		padding-top: 21px;
+  .our-mission__list {
+    padding-top: 21px;
     margin-left: -7px;
-	}
+  }
 
-	.our-mission__item {
-		max-width: 372px;
-	}
-	
-	.our-mission__item--3,
-	.our-mission__item--4 {
-		margin-top: 109px;
-	}
+  .our-mission__item {
+    max-width: 372px;
+  }
 
-	.our-mission__item--3 {
-		max-width: 300px;
-	}
+  .our-mission__item--3,
+  .our-mission__item--4 {
+    margin-top: 109px;
+  }
+
+  .our-mission__item--3 {
+    max-width: 300px;
+  }
 
 }
 
+@media screen and (max-width: 880px) {
+  .our-mission__list {
+    flex-direction: column;
+  }
+}
 
 @media screen and (max-width: 834px) {
-	.our-mission__item {
-		max-width: 100%;
-	}
+  .our-mission__item {
+    max-width: 100%;
+  }
 
-	.our-mission__list {
-		padding-top: 0;
-	}
+  .our-mission__list {
+    padding-top: 0;
+  }
 
-	.our-mission__item {
-		margin-top: 60px;
-	}
+  .our-mission__item {
+    margin-top: 60px;
+  }
 }
 
 @media screen and (max-width: 650px) {
-	.our-mission {
+  .our-mission {
     padding-top: 90px;
-	}
+  }
 
-	.our-mission__item {
-		margin-top: 40px;
-	}
+  .our-mission__item {
+    margin-top: 40px;
+  }
 
-	.our-mission__list {
-		padding-top: 0;
-		font-size: 23px;
+  .our-mission__list {
+    padding-top: 0;
+    font-size: 23px;
     line-height: 33px;
-	}
+  }
 
-	.our-mission__item::before {
-		bottom: -14px;
-	}
+  .our-mission__item::before {
+    bottom: -14px;
+  }
 }
 
 @media screen and (max-width: 490px) {
-	.our-mission {
+  .our-mission {
     padding-top: 50px;
-	}
+  }
 
-	.our-mission__list {
-		padding-top: 0;
-	}
+  .our-mission__list {
+    padding-top: 0;
+  }
 
-	.our-mission__item {
+  .our-mission__item {
     margin-top: 25px;
-	}
+  }
 }
 
 @media screen and (max-width: 420px) {
-	.our-mission {
-		padding-top: 24px;
+  .our-mission {
+    padding-top: 24px;
     margin-left: 5px;
-	}
+  }
 
-	.our-mission__list {
-		margin-left: -1px;
+  .our-mission__list {
+    margin-left: -1px;
 
-		font-size: 16px;
-		line-height: 24px;
-	}
+    font-size: 16px;
+    line-height: 24px;
+  }
 
-	.our-mission__item {
-		margin-top: 16px;
-	}
+  .our-mission__item {
+    margin-top: 16px;
+  }
 
-	.our-mission__item--2,
-	.our-mission__item--3 {
+  .our-mission__item--2,
+  .our-mission__item--3 {
     margin-top: 36px;
-	}		
-	
-	.our-mission__item--4 {
-		margin-top: 34px;
-	}
+  }
+
+  .our-mission__item--4 {
+    margin-top: 34px;
+  }
 }
