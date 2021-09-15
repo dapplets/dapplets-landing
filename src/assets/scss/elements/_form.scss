@@ -35,6 +35,7 @@
 
 .form__mail {
 	width: 100%;
+	margin-bottom: 12px;
 }
 
 .form__input {
@@ -50,12 +51,19 @@
 }
 
 .form__input {
-	margin-bottom: 12px;
+	height: 39px;
+
+	&.error {
+		color: #FF6442;
+		border-color: #FF6442;
+
+		&::placeholder {
+			color: #FF6442;
+		}
+	}
 }
 
-.form__input {
-	height: 39px;
-}
+
 
 .form__button {
 	margin-top: 4px;
@@ -75,3 +83,42 @@
 	}
 }
 
+form.success {
+
+	.form__mail {
+		position: relative;
+
+		&::before {
+			position: absolute;
+			z-index: 1;
+			top: 0;
+			left: 0;
+
+			width: 100%;
+			height: 100%;
+			padding: 10px;
+			border-radius: 8px;
+			content: 'Thank you for subscribing!';
+
+			color: #26A651;
+			background-color: #D3F8E0;
+
+			font-size: 14px;
+		}
+	}
+
+	.input {
+		visibility: hidden;
+
+		cursor: not-allowed; /* Cursor change to disabled state */
+		pointer-events: none !important;
+	}
+
+	button {
+		pointer-events: none !important;
+
+		color: #E3E3E3 !important;
+		border: 1px solid #E3E3E3 !important;
+		background-color: #F5F5F5 !important;
+	}
+}
